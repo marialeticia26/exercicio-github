@@ -1,0 +1,156 @@
+/* Reset e base */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/*Corpo da página*/
+body {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #111211;
+    background: #e5f0cc;
+}
+
+/*Cabeçalho*/
+header {
+    background-color: #6b7555;
+    /* cor primária */
+    color: #d3c7ad;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+/*Título*/
+header h1 {
+    font-size: 2.2rem;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+/*Menu*/
+nav {
+    background-color: #4b533a;
+    padding: 8px 16px;
+}
+
+/*Links do menu*/
+nav a {
+    color: #d3c7ad;
+    text-decoration: none;
+    padding: 8px 16px;
+    border-radius: 6px;
+    font-weight: 600;
+    transition: background .2s;
+}
+
+/*Efeito mouse em cima*/
+nav a:hover {
+    background-color: rgba(255, 255, 255, 0.15);
+}
+
+/*Conteúdo principal*/
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+
+/*Seções*/
+section {
+    margin-bottom: 32px;
+}
+
+/*Subtítulos*/
+h2 {
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: #754437;
+    border-left: 4px solid;
+    padding-left: 12px;
+    margin-bottom: 12px;
+}
+
+/*Parágrafos*/
+p {
+    color: #754437;
+    margin-bottom: 12px;
+}
+
+/*Lista sem marcador*/
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+/*Itens da lista*/
+ul li {
+    padding: 8px 0 8px 20px;
+    border-bottom: 1px solid #e2e8f0;
+    position: relative;
+    color: #754437;
+}
+
+/*Bolinhas antes dos itens*/
+ul li::before {
+    content: "• ";
+    color: #754437;
+    position: absolute;
+    left: 0;
+    font-weight: 700;
+
+}
+
+/*Lista ordenada*/
+ol {
+    padding: 0;
+    margin: 20px;
+}
+
+/*Itens da lista ordenada*/
+ol li {
+    padding: 8px 0 8px 20px;
+    border-bottom: 1px solid #e2e8f0;
+    position: relative;
+    color: #754437;
+    padding-left: 20px;
+}
+
+/*Estilo antes dos itens*/
+ol li::before {
+
+    color: #754437;
+    position: absolute;
+    left: 0;
+    font-weight: 700;
+
+}
+
+/*Links*/
+a {
+    color: #754437;
+    text-decoration: underline;
+    border-radius: 6px;
+    font-weight: 600;
+    transition: background .2s;
+}
+
+/*Rodapé*/
+footer {
+    background-color: #6b7555;
+    color: rgba(255, 255, 255, .7);
+    text-align: center;
+    padding: 28px 20px;
+    font-size: .9rem;
+    margin-top: 40px;
+
+}
+
+/*Banner*/
+#banner {
+    color: #d3c7ad;
+}
